@@ -1,0 +1,10 @@
+{
+  "background_color": "#ffffff",
+  "description": "ToolkitIntroApp",
+  "display": "standalone",
+  "name": "ToolkitIntroApp",
+  "short_name": "ToolkitIntroApp",
+  "start_url": "/index.html",
+  "theme_color": "#ffffff",
+  "scope": "/"
+}

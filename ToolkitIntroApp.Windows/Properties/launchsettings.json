@@ -1,0 +1,10 @@
+{
+	"profiles": {
+		"ToolkitIntroApp.Windows (Unpackaged)": {
+			"commandName": "Project"
+		},
+		"ToolkitIntroApp.Windows (Package)": {
+			"commandName": "MsixPackage"
+		}
+	}
+}
