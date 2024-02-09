@@ -4,12 +4,26 @@
       xmlns:local="using:ToolkitIntroApp"
       xmlns:utu="using:Uno.Toolkit.UI"
       Background="CornflowerBlue">
-      <Grid utu:SafeArea.Insets="VisibleBounds">
-        <Image Width="200"
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+         <utu:NavigationBar Content="Main Page"
+                           MainCommandMode="Action">
+            <utu:NavigationBar.MainCommand>
+                <AppBarButton>
+                    <AppBarButton.Icon>
+                        <BitmapIcon UriSource="ms-appx:///ToolkitIntroApp/Assets/Icons/burger.png" />
+                    </AppBarButton.Icon>
+                </AppBarButton>
+            </utu:NavigationBar.MainCommand>
+        </utu:NavigationBar>
+        <Image Grid.Row="1"
+               Width="200"
                Height="200"
                Margin="16"
                VerticalAlignment="Top"
-               HorizontalAlignment="Center"
                Source="ms-appx:///ToolkitIntroApp/Assets/Images/steve.png" />
     </Grid>
 </Page>
