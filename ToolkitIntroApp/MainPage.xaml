@@ -3,12 +3,13 @@
       xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
       xmlns:local="using:ToolkitIntroApp"
       xmlns:utu="using:Uno.Toolkit.UI"
-      Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-  <StackPanel utu:SafeArea.Insets="VisibleBounds"
-        HorizontalAlignment="Center"
-        VerticalAlignment="Center">
-    <TextBlock AutomationProperties.AutomationId="HelloTextBlock"
-          Text="Hello Uno Platform"
-          HorizontalAlignment="Center" />
-  </StackPanel>
+      Background="CornflowerBlue">
+      <Grid utu:SafeArea.Insets="VisibleBounds">
+        <Image Width="200"
+               Height="200"
+               Margin="16"
+               VerticalAlignment="Top"
+               HorizontalAlignment="Center"
+               Source="ms-appx:///ToolkitIntroApp/Assets/Images/steve.png" />
+    </Grid>
 </Page>
