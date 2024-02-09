@@ -6,7 +6,7 @@
     <!-- Load WinUI resources -->
     <XamlControlsResources xmlns="using:Microsoft.UI.Xaml.Controls" />
    
-    <!-- Load Uno.UI.Toolkit resources -->
+    <!-- Load Uno Toolkit resources -->
     <ToolkitResources xmlns="using:Uno.Toolkit.UI" />
 
   </ResourceDictionary.MergedDictionaries>
